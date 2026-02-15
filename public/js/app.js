@@ -119,7 +119,6 @@ function renderHero(heroData) {
                         <div class="hero__text">
                             <span>${slide.subtitle}</span>
                             <h2>${slide.title}</h2>
-                            <a href="${slide.link}" class="primary-btn">${slide.linkText}</a>
                         </div>
                     </div>
                 </div>
@@ -296,11 +295,6 @@ function renderFooter(footerData, globals, menu) {
     footerSocial.innerHTML = globals.socials.map(social =>
       `<a href="${social.url}" target="_blank"><i class="${social.icon}"></i></a>`
     ).join('');
-  }
-
-  const footerMenu = document.querySelector('.footer__option__item ul');
-  if (footerMenu && menu) {
-    footerMenu.innerHTML = menu.map(item => `<li><a href="${item.url}">${item.label}</a></li>`).join('');
   }
 }
 

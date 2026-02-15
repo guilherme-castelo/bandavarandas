@@ -1,6 +1,6 @@
 {
   "globals": {
-    "title": "Varandas | Portfolio",
+    "title": "Banda Varandas",
     "socials": [
       {
         "name": "facebook",
@@ -39,29 +39,29 @@
   "hero": [
     {
       "image": "img/hero/hero-1.jpg",
-      "subtitle": "Portfólio",
-      "title": "Banda Varandas",
+      "subtitle": "Banda",
+      "title": "Varandas",
       "link": "#about",
       "linkText": "Projetos"
     },
     {
       "image": "img/hero/hero-2.jpg",
-      "subtitle": "Portfólio",
-      "title": "Banda Varandas",
+      "subtitle": "Banda",
+      "title": "Varandas",
       "link": "/portfolio.html",
       "linkText": "Projetos"
     },
     {
       "image": "img/hero/hero-3.jpg",
-      "subtitle": "Portfólio",
-      "title": "Banda Varandas",
+      "subtitle": "Banda",
+      "title": "Varandas",
       "link": "/portfolio.html",
       "linkText": "Projetos"
     },
     {
       "image": "img/hero/hero-4.jpg",
-      "subtitle": "Portfólio",
-      "title": "Banda Varandas",
+      "subtitle": "Banda",
+      "title": "Varandas",
       "link": "/portfolio.html",
       "linkText": "Projetos"
     }
