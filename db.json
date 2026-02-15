@@ -64,6 +64,13 @@
       "title": "Varandas",
       "link": "/portfolio.html",
       "linkText": "Projetos"
+    },
+    {
+      "image": "img/hero/hero-5.jpg",
+      "subtitle": "Banda",
+      "title": "Varandas",
+      "link": "/portfolio.html",
+      "linkText": "Projetos"
     }
   ],
   "about": {
@@ -120,6 +127,57 @@
   "portfolio": [
     {
       "id": 1,
+      "title": "Som a Favor do Planeta",
+      "category": [
+        "show"
+      ],
+      "description": "Show no evento Som a Favor do Planeta no teatro municipal de Ariquemesem 2025.",
+      "year": "2025",
+      "type": "gallery",
+      "group": "galeria7",
+      "mainImage": "img/varandas/somafavordoplaneta/DSC08362.jpg",
+      "images": [
+        "img/varandas/somafavordoplaneta/DSC08262.jpg",
+        "img/varandas/somafavordoplaneta/DSC08299.jpg",
+        "img/varandas/somafavordoplaneta/DSC08324.jpg",
+        "img/varandas/somafavordoplaneta/DSC08376.jpg",
+        "img/varandas/somafavordoplaneta/DSC08426.jpg",
+        "img/varandas/somafavordoplaneta/DSC08269.jpg",
+        "img/varandas/somafavordoplaneta/DSC08303.jpg",
+        "img/varandas/somafavordoplaneta/DSC08336.jpg",
+        "img/varandas/somafavordoplaneta/DSC08380.jpg",
+        "img/varandas/somafavordoplaneta/DSC08436.jpg",
+        "img/varandas/somafavordoplaneta/DSC08274.jpg",
+        "img/varandas/somafavordoplaneta/DSC08306.jpg",
+        "img/varandas/somafavordoplaneta/DSC08338.jpg",
+        "img/varandas/somafavordoplaneta/DSC08381.jpg",
+        "img/varandas/somafavordoplaneta/DSC08446.jpg",
+        "img/varandas/somafavordoplaneta/DSC08277.jpg",
+        "img/varandas/somafavordoplaneta/DSC08308.jpg",
+        "img/varandas/somafavordoplaneta/DSC08341.jpg",
+        "img/varandas/somafavordoplaneta/DSC08396.jpg",
+        "img/varandas/somafavordoplaneta/DSC08448.jpg",
+        "img/varandas/somafavordoplaneta/DSC08282.jpg",
+        "img/varandas/somafavordoplaneta/DSC08309.jpg",
+        "img/varandas/somafavordoplaneta/DSC08348.jpg",
+        "img/varandas/somafavordoplaneta/DSC08406.jpg",
+        "img/varandas/somafavordoplaneta/DSC08450.jpg",
+        "img/varandas/somafavordoplaneta/DSC08284.jpg",
+        "img/varandas/somafavordoplaneta/DSC08317.jpg",
+        "img/varandas/somafavordoplaneta/DSC08352.jpg",
+        "img/varandas/somafavordoplaneta/DSC08413.jpg",
+        "img/varandas/somafavordoplaneta/DSC08293.jpg",
+        "img/varandas/somafavordoplaneta/DSC08319.jpg",
+        "img/varandas/somafavordoplaneta/DSC08353.jpg",
+        "img/varandas/somafavordoplaneta/DSC08419.jpg",
+        "img/varandas/somafavordoplaneta/DSC08295.jpg",
+        "img/varandas/somafavordoplaneta/DSC08322.jpg",
+        "img/varandas/somafavordoplaneta/DSC08362.jpg",
+        "img/varandas/somafavordoplaneta/DSC08423.jpg"
+      ]
+    },
+    {
+      "id": 3,
       "title": "Clipe Single Às Vezes",
       "category": [
         "trabalhos",
@@ -132,7 +190,7 @@
       "videoUrl": "https://www.youtube.com/watch?v=RJlAWxLiQ5U"
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "MakingOf Single Às Vezes",
       "category": [
         "trabalhos",
@@ -145,7 +203,7 @@
       "videoUrl": "https://www.youtube.com/watch?v=Lab1SxVSy4I"
     },
     {
-      "id": 3,
+      "id": 5,
       "title": "Single Às Vezes",
       "category": [
         "trabalhos",
@@ -157,7 +215,7 @@
       "spotifyEmbed": "https://open.spotify.com/embed/track/10dThZxHSFDKQbHCiVialG?utm_source=generator"
     },
     {
-      "id": 4,
+      "id": 6,
       "title": "Barbearia RockSport",
       "category": [
         "show"
@@ -177,7 +235,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 7,
       "title": "Álbum Codinome Central",
       "category": [
         "trabalhos",
@@ -189,7 +247,7 @@
       "spotifyEmbed": "https://open.spotify.com/embed/album/1aZQpIHbvPWwbT00WfkFKJ?utm_source=generator"
     },
     {
-      "id": 6,
+      "id": 8,
       "title": "Making Of - Lives Codinome Central",
       "category": [
         "trabalhos",
@@ -203,7 +261,7 @@
       "videoUrl": "https://www.youtube.com/watch?v=SxYX9iim3Ak"
     },
     {
-      "id": 7,
+      "id": 9,
       "title": "3ª Live Codinome Central",
       "category": [
         "trabalhos",
@@ -216,7 +274,7 @@
       "videoUrl": "https://www.youtube.com/live/qdgtAzH4QxE"
     },
     {
-      "id": 8,
+      "id": 10,
       "title": "2ª Live Codinome Central",
       "category": [
         "trabalhos",
@@ -229,7 +287,7 @@
       "videoUrl": "https://youtube.com/live/-p16LVUavIA"
     },
     {
-      "id": 9,
+      "id": 11,
       "title": "1ª Live Codinome Central",
       "category": [
         "trabalhos",
@@ -242,7 +300,7 @@
       "videoUrl": "https://youtube.com/live/79ZIQas1GRU"
     },
     {
-      "id": 10,
+      "id": 12,
       "title": "Ariquemes em Artes",
       "category": [
         "show"
@@ -257,7 +315,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 13,
       "title": "Noite da AMAAR",
       "category": [
         "show"
@@ -272,7 +330,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 14,
       "title": "Festivale",
       "category": [
         "show"
@@ -294,7 +352,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 15,
       "title": "Noite Alternativa I",
       "category": [
         "show",
@@ -319,7 +377,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 16,
       "title": "RondonRock Festival",
       "category": [
         "show",
