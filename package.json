@@ -1,0 +1,17 @@
+{
+  "name": "bandavarandas",
+  "version": "1.0.0",
+  "description": "Refactored Banda Varandas Portfolio",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

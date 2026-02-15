@@ -1,0 +1,400 @@
+{
+  "globals": {
+    "title": "Varandas | Portfolio",
+    "socials": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/bandavarandas/",
+        "icon": "fa fa-facebook"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/bandavarandas/",
+        "icon": "fa fa-instagram"
+      },
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com/@bandavarandas",
+        "icon": "fa fa-youtube-play"
+      },
+      {
+        "name": "spotify",
+        "url": "https://open.spotify.com/intl-pt/artist/1URNpE82JJqDIVlxyT1CJw",
+        "icon": "fa fa-spotify"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "url": "/index.html",
+      "active": false
+    },
+    {
+      "label": "Projetos",
+      "url": "/index.html#about",
+      "active": false
+    }
+  ],
+  "hero": [
+    {
+      "image": "img/hero/hero-1.jpg",
+      "subtitle": "Portfólio",
+      "title": "Banda Varandas",
+      "link": "#about",
+      "linkText": "Projetos"
+    },
+    {
+      "image": "img/hero/hero-2.jpg",
+      "subtitle": "Portfólio",
+      "title": "Banda Varandas",
+      "link": "/portfolio.html",
+      "linkText": "Projetos"
+    },
+    {
+      "image": "img/hero/hero-3.jpg",
+      "subtitle": "Portfólio",
+      "title": "Banda Varandas",
+      "link": "/portfolio.html",
+      "linkText": "Projetos"
+    },
+    {
+      "image": "img/hero/hero-4.jpg",
+      "subtitle": "Portfólio",
+      "title": "Banda Varandas",
+      "link": "/portfolio.html",
+      "linkText": "Projetos"
+    }
+  ],
+  "about": {
+    "title": "Quem somos?",
+    "subtitle": "Sobre Varandas",
+    "description": "Banda Varandas, formada por Bruno Bratilieri, Amanda Milan, Guilherme Castelo e Murilo da Silva, vem fortalecendo a cena musical local há cerca de oito anos, trazendo sua identidade artística e visão única.\n\nCom o lançamento do primeiro álbum em 2022 e um single em 2024, a banda segue em constante produção, explorando novos sons e consolidando sua trajetória. E essa história está apenas começando…",
+    "images": [
+      "img/varandas/bandavarandas-lives-codinomecentral1.jpeg",
+      "img/varandas/bandavarandas-rockbar3.jpeg",
+      "img/varandas/bandavarandas-noite-amaar1.jpeg",
+      "img/varandas/single-asvezes/bandavarandas-single18.jpeg"
+    ],
+    "highlights": [
+      {
+        "title": "Codinome Central",
+        "description": "Álbum intitulado Codinome Central, lançado em 2022 pela banda Varandas.",
+        "image": "img/varandas/icons/i-1.jpeg",
+        "link": "https://artists.landr.com/CodinomeCentral-Varandas"
+      },
+      {
+        "title": "Às Vezes",
+        "description": "Single Às Vezes lançado em 2024 com recursos da Lei Paulo Gustavo Edital Audiovisual nº 001/2023.",
+        "image": "img/varandas/icons/i-2.jpeg",
+        "link": "https://artists.landr.com/AsVezes-Varandas"
+      }
+    ]
+  },
+  "team": [
+    {
+      "name": "BRUNO BRATILIERI",
+      "role": "Vocalista | Letrista",
+      "image": "img/varandas/single-asvezes/bandavarandas-single14.jpeg",
+      "socials": []
+    },
+    {
+      "name": "AMANDA MILAN",
+      "role": "Baixista | Letrista",
+      "image": "img/varandas/single-asvezes/bandavarandas-single17.jpeg",
+      "socials": []
+    },
+    {
+      "name": "GUILHERME CASTELO",
+      "role": "Baterista",
+      "image": "img/varandas/single-asvezes/bandavarandas-single1.jpeg",
+      "socials": []
+    },
+    {
+      "name": "MURILO DA SILVA",
+      "role": "Guitarrista",
+      "image": "img/varandas/single-asvezes/bandavarandas-single22.png",
+      "socials": []
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Clipe Single Às Vezes",
+      "category": [
+        "trabalhos",
+        "clipe"
+      ],
+      "description": "Clipe do single \"Às Vezes\", segundo trabalho de estúdio da banda Varandas. Edital Audiovisual nº 001/2023 e nº 002/2023",
+      "year": "2024",
+      "type": "video",
+      "thumbnail": "img/varandas/single-asvezes/bandavarandas-clipe-asvezes1.png",
+      "videoUrl": "https://www.youtube.com/watch?v=RJlAWxLiQ5U"
+    },
+    {
+      "id": 2,
+      "title": "MakingOf Single Às Vezes",
+      "category": [
+        "trabalhos",
+        "makingof"
+      ],
+      "description": "Documentário sobre o processo de produção e gravação do single \"Às Vezes\", segundo trabalho de estúdio da banda Varandas.",
+      "year": "2024",
+      "type": "video",
+      "thumbnail": "img/varandas/single-asvezes/bandavarandas-makingof-asvezes1.png",
+      "videoUrl": "https://www.youtube.com/watch?v=Lab1SxVSy4I"
+    },
+    {
+      "id": 3,
+      "title": "Single Às Vezes",
+      "category": [
+        "trabalhos",
+        "lancamentos"
+      ],
+      "description": "Single \"Às Vezes\", segundo trabalho de estúdio da banda Varandas.",
+      "year": "2024",
+      "type": "spotify",
+      "spotifyEmbed": "https://open.spotify.com/embed/track/10dThZxHSFDKQbHCiVialG?utm_source=generator"
+    },
+    {
+      "id": 4,
+      "title": "Barbearia RockSport",
+      "category": [
+        "show"
+      ],
+      "description": "Shows no pub da barbearia RockSport em 2024.",
+      "year": "2024",
+      "type": "gallery",
+      "group": "galeria5",
+      "mainImage": "img/varandas/bandavarandas-rockbar3.jpeg",
+      "images": [
+        "img/varandas/bandavarandas-rockbar1.jpeg",
+        "img/varandas/bandavarandas-rockbar2.jpeg",
+        "img/varandas/bandavarandas-rockbar4.jpeg",
+        "img/varandas/bandavarandas-rockbar6.jpeg",
+        "img/varandas/bandavarandas-rockbar5.jpeg",
+        "img/varandas/bandavarandas-rockbar7.jpeg"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Álbum Codinome Central",
+      "category": [
+        "trabalhos",
+        "lancamentos"
+      ],
+      "description": "Álbum intitulado \"Codinome Central\", primeiro trabalho de estúdio da banda Varandas.",
+      "year": "2022",
+      "type": "spotify",
+      "spotifyEmbed": "https://open.spotify.com/embed/album/1aZQpIHbvPWwbT00WfkFKJ?utm_source=generator"
+    },
+    {
+      "id": 6,
+      "title": "Making Of - Lives Codinome Central",
+      "category": [
+        "trabalhos",
+        "lives",
+        "makingof"
+      ],
+      "description": "Making Of das 3 Lives Codinome Central.",
+      "year": "2021",
+      "type": "video",
+      "thumbnail": "img/varandas/lives/bandavarandas-makingof-live-codinomecentral.png",
+      "videoUrl": "https://www.youtube.com/watch?v=SxYX9iim3Ak"
+    },
+    {
+      "id": 7,
+      "title": "3ª Live Codinome Central",
+      "category": [
+        "trabalhos",
+        "lives"
+      ],
+      "description": "3ª Live Codinome Central.",
+      "year": "2021",
+      "type": "video",
+      "thumbnail": "img/varandas/lives/bandavarandas-live-codinomecentral3.png",
+      "videoUrl": "https://www.youtube.com/live/qdgtAzH4QxE"
+    },
+    {
+      "id": 8,
+      "title": "2ª Live Codinome Central",
+      "category": [
+        "trabalhos",
+        "lives"
+      ],
+      "description": "2ª Live Codinome Central.",
+      "year": "2021",
+      "type": "video",
+      "thumbnail": "img/varandas/lives/bandavarandas-live-codinomecentral2.png",
+      "videoUrl": "https://youtube.com/live/-p16LVUavIA"
+    },
+    {
+      "id": 9,
+      "title": "1ª Live Codinome Central",
+      "category": [
+        "trabalhos",
+        "lives"
+      ],
+      "description": "1ª Live Codinome Central.",
+      "year": "2021",
+      "type": "video",
+      "thumbnail": "img/varandas/lives/bandavarandas-live-codinomecentral1.png",
+      "videoUrl": "https://youtube.com/live/79ZIQas1GRU"
+    },
+    {
+      "id": 10,
+      "title": "Ariquemes em Artes",
+      "category": [
+        "show"
+      ],
+      "description": "Festival Ariquemes em Artes realizado pela ARICULTURA Centro Cultural em 2021.",
+      "year": "2021",
+      "type": "gallery",
+      "group": "galeria6",
+      "mainImage": "img/varandas/bandavarandas-arq-em-artes2.jpeg",
+      "images": [
+        "img/varandas/bandavarandas-arq-em-artes2.jpeg"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Noite da AMAAR",
+      "category": [
+        "show"
+      ],
+      "description": "Evento realizado em prol da AMAAR em conjunto com a banda Os Últimos.",
+      "year": "2021",
+      "type": "gallery",
+      "group": "galeria1",
+      "mainImage": "img/varandas/bandavarandas-noite-amaar1.jpeg",
+      "images": [
+        "img/varandas/bandavarandas-noite-amaar1.jpeg"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Festivale",
+      "category": [
+        "show"
+      ],
+      "description": "Festival do peixe do vale do jamary, em 2020 Ariquemes.",
+      "year": "2020",
+      "type": "gallery",
+      "group": "galeria2",
+      "mainImage": "img/varandas/bandacodinomecentral-festivale2.jpeg",
+      "images": [
+        "img/varandas/bandacodinomecentral-festivale1.jpeg",
+        "img/varandas/bandacodinomecentral-festivale3.jpeg",
+        "img/varandas/bandacodinomecentral-festivale4.jpeg",
+        "img/varandas/bandacodinomecentral-festivale5.jpeg",
+        "img/varandas/bandacodinomecentral-festivale6.jpeg",
+        "img/varandas/bandacodinomecentral-festivale7.jpeg",
+        "img/varandas/bandacodinomecentral-festivale8.jpeg",
+        "img/varandas/bandacodinomecentral-festivale9.jpeg"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Noite Alternativa I",
+      "category": [
+        "show",
+        "noitealternativa"
+      ],
+      "description": "Noite Alternativa I realizada em 2020 Ouro Preto Do Oeste.",
+      "year": "2020",
+      "type": "gallery",
+      "group": "galeria3",
+      "mainImage": "img/varandas/bandacodinomecentral-noitealternativa-opo2.jpg",
+      "images": [
+        "img/varandas/bandacodinomecentral-noitealternativa-opo2.jpg",
+        "img/varandas/bandacodinomecentral-noitealternativa-opo3.jpg",
+        "img/varandas/bandacodinomecentral-noitealternativa-opo4.jpg",
+        "img/varandas/bandacodinomecentral-noitealternativa-opo5.jpg",
+        "img/varandas/bandacodinomecentral-noitealternativa-opo6.jpg",
+        "img/varandas/bandacodinomecentral-noitealternativa-opo7.jpg",
+        "img/varandas/bandacodinomecentral-noitealternativa-opo8.jpg",
+        "img/varandas/bandacodinomecentral-noitealternativa-opo9.jpg",
+        "img/varandas/bandacodinomecentral-noitealternativa-opo10.jpg",
+        "img/varandas/bandacodinomecentral-noitealternativa-opo11.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "RondonRock Festival",
+      "category": [
+        "show",
+        "noitealternativa"
+      ],
+      "description": "Festival RondonRock de 2019 em Ji-Paraná.",
+      "year": "2019",
+      "type": "gallery",
+      "group": "galeria4",
+      "mainImage": "img/varandas/bandacodinomecentral-rondonrock6.jpg",
+      "images": [
+        "img/varandas/bandacodinomecentral-rondonrock2.jpg",
+        "img/varandas/bandacodinomecentral-rondonrock3.jpg",
+        "img/varandas/bandacodinomecentral-rondonrock4.jpg",
+        "img/varandas/bandacodinomecentral-rondonrock5.jpg",
+        "img/varandas/bandacodinomecentral-rondonrock7.jpg"
+      ]
+    }
+  ],
+  "aboutPage": {
+    "title": "Nossa História",
+    "breadcrumb": "Sobre Nós",
+    "description": "A Banda Varandas nasceu da união de quatro músicos apaixonados por criar uma sonoridade única em Ariquemes, Rondônia. Misturando influências do Pop, Rock e MPB, criamos músicas que falam sobre cotidiano, amor e reflexões.\n\nDesde 2016, temos nos apresentado em diversos festivais e casas de shows, sempre levando energia e autenticidade. Nosso objetivo é conectar pessoas através da nossa arte.",
+    "mission": "Levar a música autoral de Rondônia para o mundo, inspirando e conectando pessoas.",
+    "services": [
+      {
+        "title": "Shows Ao Vivo",
+        "icon": "img/icons/si-3.png",
+        "desc": "Performances energéticas para festivais e eventos."
+      },
+      {
+        "title": "Produção Musical",
+        "icon": "img/icons/si-4.png",
+        "desc": "Composição e arranjo de trilhas originais."
+      }
+    ]
+  },
+  "stats": [
+    {
+      "number": 8,
+      "label": "Anos de Estrada"
+    },
+    {
+      "number": 15,
+      "label": "Músicas Autorais"
+    },
+    {
+      "number": 50,
+      "label": "Shows Realizados"
+    },
+    {
+      "number": 2,
+      "label": "Álbuns/EPs"
+    }
+  ],
+  "contactPage": {
+    "title": "Fale Conosco",
+    "breadcrumb": "Contato",
+    "info": {
+      "address": {
+        "icon": "fa fa-map-marker",
+        "title": "Localização",
+        "text": "Ariquemes, Rondônia, Brasil"
+      },
+      "phone": {
+        "icon": "fa fa-whatsapp",
+        "title": "WhatsApp",
+        "text": "(69) 99999-9999"
+      },
+      "email": {
+        "icon": "fa fa-envelope",
+        "title": "Email",
+        "text": "contato@bandavarandas.com"
+      }
+    },
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15776.0123456789!2d-63.0!3d-9.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTQnMDAuMCJTIDYzwrAwMCcwMC4wIlc!5e0!3m2!1spt-BR!2sbr!4v1600000000000!5m2!1spt-BR!2sbr"
+  }
+}
