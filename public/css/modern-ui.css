@@ -385,6 +385,8 @@ img[loading="lazy"] {
     transition: all 0.3s ease;
     border-radius: 20px;
     border: 1px solid var(--glass-border);
+    box-shadow: 0 10px 30px -10px var(--primary-glow);
+    padding: 5px;
 }
 
 /* Adjust portfolio filter for the column width */
