@@ -1053,9 +1053,7 @@ ol {
   height: 490px;
 }
 
-.about__text {
-  padding-left: 30px;
-}
+
 .about__text .services__item .services__item__icon:after {
   border-color: #281A3E;
 }

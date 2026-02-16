@@ -130,8 +130,8 @@ function renderHero(heroData) {
 function renderAbout(aboutData) {
   const aboutTitle = document.querySelector('.about__text .section-title');
   const aboutDesc = document.querySelector('.about__text__desc');
-  const aboutServices = document.querySelector('.about__text .row');
-  const aboutPic = document.querySelector('.about__pic .row');
+  const aboutServices = document.querySelector('.about__text .services');
+  const aboutPic = document.querySelector('.about__pic .services');
 
   if (aboutTitle) {
     aboutTitle.innerHTML = `
@@ -146,13 +146,13 @@ function renderAbout(aboutData) {
 
   if (aboutServices && aboutData.highlights) {
     aboutServices.innerHTML = aboutData.highlights.map(item => `
-            <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-3">
                 <a class="services__item" href="${item.link}" target="_blank">
                     <div class="services__item__icon">
                         <img src="${item.image}" alt="${item.title}">
+                        <p style="font-size: 12px;">${item.description}</p>
                     </div>
                     <h4>${item.title}</h4>
-                    <p style="font-size: 12px;">${item.description}</p>
                 </a>
             </div>
         `).join('');
