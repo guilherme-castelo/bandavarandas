@@ -336,7 +336,6 @@ function renderFooter(db) {
   }
 
   const footerAbout = document.querySelector(".footer__option__item__about p");
-  console.log(db.globals);
   
   if(footerAbout){
     footerAbout.innerHTML = db.about.description;

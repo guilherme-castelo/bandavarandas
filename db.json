@@ -120,11 +120,9 @@
   ],
   "portfolio": [
     {
-      "id": 1,
+      "id": 17,
       "title": "Som a Favor do Planeta",
-      "category": [
-        "show"
-      ],
+      "category": ["show"],
       "description": "Show no evento Som a Favor do Planeta no teatro municipal de Ariquemesem 2025.",
       "year": "2025",
       "type": "gallery",
@@ -171,12 +169,84 @@
       ]
     },
     {
-      "id": 3,
+      "id": 16,
+      "title": "Arikeme Noise III",
+      "category": ["show"],
+      "description": "Show no evento Arikeme Noise III em Ariquemes/RO.",
+      "year": "2025",
+      "type": "gallery",
+      "group": "galeria7",
+      "mainImage": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03647.jpg",
+      "images": [
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03647.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03602.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03604.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03606.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03607.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03609.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03612.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03613.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03622.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03625.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03626.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03631.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03637.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03638.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03647.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03648.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03660.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03669.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03673.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03682.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03683.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03689.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03690.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03692.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03695.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03696.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise III/ArikemenoiseIII-03699.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Arikeme Noise II",
+      "category": ["show"],
+      "description": "Show no evento Arikeme Noise II em Ariquemes/RO.",
+      "year": "2024",
+      "type": "gallery",
+      "group": "galeria7",
+      "mainImage": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/bandavarandas-arikemenoise2-2024.jpeg",
+      "images": [
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/bandavarandas-arikemenoise2-2024.jpeg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/DSC00072.JPG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/DSC00073.JPG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/DSC00074.JPG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/DSC00078.JPG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0489.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0492.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0493.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0494.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0495.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0502.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0503.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0504.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0505.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0506.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0507.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0508.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0509.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0510.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0511.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0512.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0514.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0515.JPEG",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/Arikeme Noise II/IMG_0516.JPEG"
+      ]
+    },
+    {
+      "id": 14,
       "title": "Clipe Single Às Vezes",
-      "category": [
-        "trabalhos",
-        "clipe"
-      ],
+      "category": ["trabalhos", "clipe"],
       "description": "Clipe do single \"Às Vezes\", segundo trabalho de estúdio da banda Varandas. Edital Audiovisual nº 001/2023 e nº 002/2023",
       "year": "2024",
       "type": "video",
@@ -184,12 +254,9 @@
       "videoUrl": "https://www.youtube.com/watch?v=RJlAWxLiQ5U"
     },
     {
-      "id": 4,
+      "id": 13,
       "title": "MakingOf Single Às Vezes",
-      "category": [
-        "trabalhos",
-        "makingof"
-      ],
+      "category": ["trabalhos", "makingof"],
       "description": "Documentário sobre o processo de produção e gravação do single \"Às Vezes\", segundo trabalho de estúdio da banda Varandas.",
       "year": "2024",
       "type": "video",
@@ -197,23 +264,18 @@
       "videoUrl": "https://www.youtube.com/watch?v=Lab1SxVSy4I"
     },
     {
-      "id": 5,
+      "id": 12,
       "title": "Single Às Vezes",
-      "category": [
-        "trabalhos",
-        "lancamentos"
-      ],
+      "category": ["trabalhos", "lancamentos"],
       "description": "Single \"Às Vezes\", segundo trabalho de estúdio da banda Varandas.",
       "year": "2024",
       "type": "spotify",
       "spotifyEmbed": "https://open.spotify.com/embed/track/10dThZxHSFDKQbHCiVialG?utm_source=generator"
     },
     {
-      "id": 6,
+      "id": 11,
       "title": "Barbearia RockSport",
-      "category": [
-        "show"
-      ],
+      "category": ["show"],
       "description": "Shows no pub da barbearia RockSport em 2024.",
       "year": "2024",
       "type": "gallery",
@@ -229,13 +291,9 @@
       ]
     },
     {
-      "id": 7,
+      "id": 10,
       "title": "Making Of - Lives Codinome Central",
-      "category": [
-        "trabalhos",
-        "lives",
-        "makingof"
-      ],
+      "category": ["trabalhos", "lives", "makingof"],
       "description": "Making Of das 3 Lives Codinome Central.",
       "year": "2021",
       "type": "video",
@@ -243,24 +301,18 @@
       "videoUrl": "https://www.youtube.com/watch?v=SxYX9iim3Ak"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Álbum Codinome Central",
-      "category": [
-        "trabalhos",
-        "lancamentos"
-      ],
+      "category": ["trabalhos", "lancamentos"],
       "description": "Álbum intitulado \"Codinome Central\", primeiro trabalho de estúdio da banda Varandas.",
       "year": "2022",
       "type": "spotify",
       "spotifyEmbed": "https://open.spotify.com/embed/album/1aZQpIHbvPWwbT00WfkFKJ?utm_source=generator"
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "3ª Live Codinome Central",
-      "category": [
-        "trabalhos",
-        "lives"
-      ],
+      "category": ["trabalhos", "lives"],
       "description": "3ª Live Codinome Central.",
       "year": "2021",
       "type": "video",
@@ -268,12 +320,9 @@
       "videoUrl": "https://www.youtube.com/live/qdgtAzH4QxE"
     },
     {
-      "id": 10,
+      "id": 7,
       "title": "2ª Live Codinome Central",
-      "category": [
-        "trabalhos",
-        "lives"
-      ],
+      "category": ["trabalhos", "lives"],
       "description": "2ª Live Codinome Central.",
       "year": "2021",
       "type": "video",
@@ -281,12 +330,9 @@
       "videoUrl": "https://youtube.com/live/-p16LVUavIA"
     },
     {
-      "id": 11,
+      "id": 6,
       "title": "1ª Live Codinome Central",
-      "category": [
-        "trabalhos",
-        "lives"
-      ],
+      "category": ["trabalhos", "lives"],
       "description": "1ª Live Codinome Central.",
       "year": "2021",
       "type": "video",
@@ -294,11 +340,9 @@
       "videoUrl": "https://youtube.com/live/79ZIQas1GRU"
     },
     {
-      "id": 12,
+      "id": 5,
       "title": "Ariquemes em Artes",
-      "category": [
-        "show"
-      ],
+      "category": ["show"],
       "description": "Festival Ariquemes em Artes realizado pela ARICULTURA Centro Cultural em 2021.",
       "year": "2021",
       "type": "gallery",
@@ -309,11 +353,9 @@
       ]
     },
     {
-      "id": 13,
+      "id": 4,
       "title": "Noite da AMAAR",
-      "category": [
-        "show"
-      ],
+      "category": ["show"],
       "description": "Evento realizado em prol da AMAAR em conjunto com a banda Os Últimos.",
       "year": "2021",
       "type": "gallery",
@@ -324,11 +366,9 @@
       ]
     },
     {
-      "id": 14,
+      "id": 3,
       "title": "Festivale",
-      "category": [
-        "show"
-      ],
+      "category": ["show"],
       "description": "Festival do peixe do vale do jamary, em 2020 Ariquemes.",
       "year": "2020",
       "type": "gallery",
@@ -346,12 +386,9 @@
       ]
     },
     {
-      "id": 15,
+      "id": 2,
       "title": "Noite Alternativa I",
-      "category": [
-        "show",
-        "noitealternativa"
-      ],
+      "category": ["show", "noitealternativa"],
       "description": "Noite Alternativa I realizada em 2020 Ouro Preto Do Oeste.",
       "year": "2020",
       "type": "gallery",
@@ -371,12 +408,9 @@
       ]
     },
     {
-      "id": 16,
+      "id": 1,
       "title": "RondonRock Festival",
-      "category": [
-        "show",
-        "noitealternativa"
-      ],
+      "category": ["show", "noitealternativa"],
       "description": "Festival RondonRock de 2019 em Ji-Paraná.",
       "year": "2019",
       "type": "gallery",
