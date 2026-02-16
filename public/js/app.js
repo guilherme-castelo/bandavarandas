@@ -147,16 +147,13 @@ function renderAbout(aboutData) {
   if (aboutServices && aboutData.highlights) {
     aboutServices.innerHTML = aboutData.highlights.map(item => `
             <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="services__item">
+                <a class="services__item" href="${item.link}" target="_blank">
                     <div class="services__item__icon">
                         <img src="${item.image}" alt="${item.title}">
                     </div>
                     <h4>${item.title}</h4>
                     <p style="font-size: 12px;">${item.description}</p>
-                    <a class="btn btn-success" href="${item.link}" target="_blank">
-                        <i class="fa fa-music"></i> Ouça já
-                    </a>
-                </div>
+                </a>
             </div>
         `).join('');
   }
