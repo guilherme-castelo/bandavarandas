@@ -1,37 +1,37 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   fetchData();
 });
 
 async function fetchData() {
   try {
-    const response = await fetch('/api/db');
+    const response = await fetch("/api/db");
     const db = await response.json();
     initializeApp(db);
   } catch (error) {
-    console.error('Error fetching data:', error);
+    console.error("Error fetching data:", error);
   }
 }
 
 function initializeApp(db) {
   if (db.globals) applyGlobals(db.globals);
   if (db.menu) renderHeader(db.menu, db.globals);
-  if (db.footer) renderFooter(db.footer, db.globals, db.menu);
+  if (db) renderFooter(db);
 
   const path = window.location.pathname;
 
   // Page specific rendering
-  if (path === '/' || path.endsWith('index.html')) {
+  if (path === "/" || path.endsWith("index.html")) {
     renderHero(db.hero);
     if (db.about) renderAbout(db.about);
     if (db.stats) renderCounters(db.stats);
     if (db.portfolio) renderPortfolioPage(db.portfolio); // Render on Index
     if (db.team) renderTeam(db.team);
-  } else if (path.includes('portfolio.html')) {
+  } else if (path.includes("portfolio.html")) {
     // Redirect legacy portfolio
-    window.location.href = '/index.html#about';
-  } else if (path.includes('about.html')) {
-    window.location.href = '/index.html';
-  } else if (path.includes('contact.html')) {
+    window.location.href = "/index.html#about";
+  } else if (path.includes("about.html")) {
+    window.location.href = "/index.html";
+  } else if (path.includes("contact.html")) {
     renderContactPage(db.contactPage);
   }
 
@@ -41,40 +41,45 @@ function initializeApp(db) {
 
   // Dispatch event to signal that content is ready for plugins (OwlCarousel, MixItUp, etc.)
   setTimeout(() => {
-    window.dispatchEvent(new Event('app:ready'));
+    window.dispatchEvent(new Event("app:ready"));
   }, 100);
 }
 
 function initObservers() {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.1 });
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.1 },
+  );
 
-  document.querySelectorAll('.portfolio__item, .hero__text, .section-title').forEach(el => {
-    el.classList.add('fade-in-up');
-    observer.observe(el);
-  });
+  document
+    .querySelectorAll(".portfolio__item, .hero__text, .section-title")
+    .forEach((el) => {
+      el.classList.add("fade-in-up");
+      observer.observe(el);
+    });
 }
 
 function initAccessibility() {
-  const filters = document.querySelectorAll('.portfolio__filter li');
-  filters.forEach(filter => {
-    filter.setAttribute('role', 'button');
-    filter.setAttribute('tabindex', '0');
-    filter.setAttribute('aria-pressed', filter.classList.contains('active'));
+  const filters = document.querySelectorAll(".portfolio__filter li");
+  filters.forEach((filter) => {
+    filter.setAttribute("role", "button");
+    filter.setAttribute("tabindex", "0");
+    filter.setAttribute("aria-pressed", filter.classList.contains("active"));
 
-    filter.addEventListener('click', () => {
-      filters.forEach(f => f.setAttribute('aria-pressed', 'false'));
-      filter.setAttribute('aria-pressed', 'true');
+    filter.addEventListener("click", () => {
+      filters.forEach((f) => f.setAttribute("aria-pressed", "false"));
+      filter.setAttribute("aria-pressed", "true");
     });
 
-    filter.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
+    filter.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
         e.preventDefault();
         filter.click();
       }
@@ -89,29 +94,39 @@ function applyGlobals(globals) {
 }
 
 function renderHeader(menu, globals) {
-  const headerNav = document.querySelector('.header__nav__menu ul');
-  const headerSocial = document.querySelector('.header__nav__social');
+  const headerNav = document.querySelector(".header__nav__menu ul");
+  const headerSocial = document.querySelector(".header__nav__social");
 
   if (headerNav) {
-    headerNav.innerHTML = menu.map(item =>
-      `<li class="${window.location.pathname.endsWith(item.url) || (item.url === '/index.html' && window.location.pathname === '/') ? 'active' : ''}"><a href="${item.url}">${item.label}</a></li>`
-    ).join('');
+    headerNav.innerHTML = menu
+      .map(
+        (item) =>
+          `<li class="${window.location.pathname.endsWith(item.url) || (item.url === "/index.html" && window.location.pathname === "/") ? "active" : ""}"><a href="${item.url}">${item.label}</a></li>`,
+      )
+      .join("");
   }
 
   if (headerSocial && globals.socials) {
-    headerSocial.innerHTML = globals.socials.map(social =>
-      `<a href="${social.url}" target="_blank"><i class="${social.icon}"></i></a>`
-    ).join('');
+    headerSocial.innerHTML = globals.socials
+      .map(
+        (social) =>
+          `<a href="${social.url}" target="_blank"><i class="${social.icon}"></i></a>`,
+      )
+      .join("");
   }
 }
 
 function renderHero(heroData) {
-  const heroSlider = document.querySelector('.hero__slider');
+  const heroSlider = document.querySelector(".hero__slider");
   if (!heroSlider || !heroData) return;
 
-  const validSlides = Array.isArray(heroData) ? heroData : Object.values(heroData);
+  const validSlides = Array.isArray(heroData)
+    ? heroData
+    : Object.values(heroData);
 
-  heroSlider.innerHTML = validSlides.map(slide => `
+  heroSlider.innerHTML = validSlides
+    .map(
+      (slide) => `
         <div class="hero__item set-bg" data-setbg="${slide.image}" style="background-image: url('${slide.image}');">
             <div class="container">
                 <div class="row">
@@ -124,14 +139,16 @@ function renderHero(heroData) {
                 </div>
             </div>
         </div>
-    `).join('');
+    `,
+    )
+    .join("");
 }
 
 function renderAbout(aboutData) {
-  const aboutTitle = document.querySelector('.about__text .section-title');
-  const aboutDesc = document.querySelector('.about__text__desc');
-  const aboutServices = document.querySelector('.about__text .services');
-  const aboutPic = document.querySelector('.about__pic .services');
+  const aboutTitle = document.querySelector(".about__text .section-title");
+  const aboutDesc = document.querySelector(".about__text__desc");
+  const aboutServices = document.querySelector(".about__text .services");
+  const aboutPic = document.querySelector(".about__pic .services");
 
   if (aboutTitle) {
     aboutTitle.innerHTML = `
@@ -141,11 +158,13 @@ function renderAbout(aboutData) {
   }
 
   if (aboutDesc) {
-    aboutDesc.innerHTML = `<p>${aboutData.description.replace(/\n/g, '<br>')}</p>`;
+    aboutDesc.innerHTML = `<p>${aboutData.description.replace(/\n/g, "<br>")}</p>`;
   }
 
   if (aboutServices && aboutData.highlights) {
-    aboutServices.innerHTML = aboutData.highlights.map(item => `
+    aboutServices.innerHTML = aboutData.highlights
+      .map(
+        (item) => `
             <div class="col-lg-6 col-md-6 col-sm-3">
                 <a class="services__item" href="${item.link}" target="_blank">
                     <div class="services__item__icon">
@@ -155,7 +174,9 @@ function renderAbout(aboutData) {
                     <h4>${item.title}</h4>
                 </a>
             </div>
-        `).join('');
+        `,
+      )
+      .join("");
   }
 
   if (aboutPic && aboutData.images) {
@@ -186,10 +207,12 @@ function renderAbout(aboutData) {
 }
 
 function renderCounters(stats) {
-  const counterContainer = document.querySelector('.counter__content .row');
+  const counterContainer = document.querySelector(".counter__content .row");
   if (!counterContainer || !stats) return;
 
-  counterContainer.innerHTML = stats.map(stat => `
+  counterContainer.innerHTML = stats
+    .map(
+      (stat) => `
         <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="counter__item">
                 <div class="counter__item__text">
@@ -199,64 +222,78 @@ function renderCounters(stats) {
                 </div>
             </div>
         </div>
-    `).join('');
+    `,
+    )
+    .join("");
 }
 
 function renderTeam(teamData) {
-  const teamContainer = document.querySelector('.team .row:nth-child(2)');
+  const teamContainer = document.querySelector(".team .row:nth-child(2)");
   if (!teamContainer || !teamData) return;
 
-  teamContainer.innerHTML = teamData.map(member => `
+  teamContainer.innerHTML = teamData
+    .map(
+      (member) => `
         <div class="col-lg-3 col-md-6 col-sm-6 p-3">
             <div class="team__item set-bg" data-setbg="${member.image}" style="background-image: url('${member.image}'); border-radius: 15px;">
                 <div class="team__item__text">
                     <h4>${member.name}</h4>
                     <p>${member.role}</p>
                     <div class="team__item__social">
-                        ${member.socials && member.socials.map(s => `<a href="${s.url}"><i class="${s.icon}"></i></a>`).join('')}
+                        ${member.socials && member.socials.map((s) => `<a href="${s.url}"><i class="${s.icon}"></i></a>`).join("")}
                     </div>
                 </div>
             </div>
         </div>
-    `).join('');
+    `,
+    )
+    .join("");
 }
 
 function renderPortfolioPage(portfolioData) {
-  const gallery = document.querySelector('.portfolio__gallery');
+  const gallery = document.querySelector(".portfolio__gallery");
   if (!gallery || !portfolioData) return;
 
-  gallery.innerHTML = portfolioData.map((item, index) => {
-    const classes = item.category.join(' ');
-    let bentoClass = 'bento-item';
+  gallery.innerHTML = portfolioData
+    .map((item, index) => {
+      const classes = item.category.join(" ");
+      let bentoClass = "bento-item";
 
-    if (index % 6 === 0) bentoClass = 'bento-large';
-    else if (index % 6 === 3) bentoClass = 'bento-wide';
-    else if (index % 6 === 4) bentoClass = 'bento-item';
-    else if (index % 6 === 5) bentoClass = 'bento-tall';
+      if (index % 6 === 0) bentoClass = "bento-large";
+      else if (index % 6 === 3) bentoClass = "bento-wide";
+      else if (index % 6 === 4) bentoClass = "bento-item";
+      else if (index % 6 === 5) bentoClass = "bento-tall";
 
-    let mediaContent = '';
+      let mediaContent = "";
 
-    if (item.type === 'video') {
-      mediaContent = `
+      if (item.type === "video") {
+        mediaContent = `
                 <div class="portfolio__item__video set-bg" data-setbg="${item.thumbnail}" style="background-image: url('${item.thumbnail}');">
                     <a href="${item.videoUrl}" class="play-btn video-popup"><i class="fa fa-play"></i></a>
                 </div>`;
-    } else if (item.type === 'spotify') {
-      mediaContent = `
+      } else if (item.type === "spotify") {
+        mediaContent = `
                 <iframe style="border-radius:12px; margin-bottom: 0;" 
                     src="${item.spotifyEmbed}" 
                     width="100%" height="100%" frameBorder="0" allowfullscreen="" 
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                     loading="lazy">
                 </iframe>`;
-    } else if (item.type === 'gallery') {
-      const mainImg = item.mainImage;
-      const group = item.group || 'default';
-      const hiddenImgs = item.images && item.images.length > 1 ? item.images.slice(1).map(img =>
-        `<a href="${img}" class="image-popup" data-group="${group}"></a>`
-      ).join('') : '';
+      } else if (item.type === "gallery") {
+        const mainImg = item.mainImage;
+        const group = item.group || "default";
+        const hiddenImgs =
+          item.images && item.images.length > 1
+            ? item.images
+                .slice(1)
+                .map(
+                  (img) =>
+                    `<a href="${img}" class="image-popup" data-group="${group}"></a>`,
+                )
+                .join("")
+            : "";
 
-      mediaContent = `
+        mediaContent = `
                 <div class="portfolio__item__media" style="height: 100%;">
                     <a href="${mainImg}" class="image-popup" data-group="${group}">
                         <img src="${mainImg}" alt="${item.title}" loading="lazy" style="height: 100%; object-fit: cover; width: 100%;">
@@ -266,11 +303,11 @@ function renderPortfolioPage(portfolioData) {
                     ${hiddenImgs}
                 </div>
             `;
-    }
+      }
 
-    return `
+      return `
             <div class="mix ${classes} ${bentoClass}" data-order="${item.id}" style="padding: 0;">
-                <div class="portfolio__item" data-group="${item.group || ''}">
+                <div class="portfolio__item" data-group="${item.group || ""}">
                     ${mediaContent}
                     <div class="portfolio__item__text">
                         <h4>${item.title}</h4>
@@ -283,29 +320,52 @@ function renderPortfolioPage(portfolioData) {
                 </div>
             </div>
         `;
-  }).join('');
+    })
+    .join("");
 }
 
-function renderFooter(footerData, globals, menu) {
-  const footerSocial = document.querySelector('.footer__top__social');
-  if (footerSocial && globals.socials) {
-    footerSocial.innerHTML = globals.socials.map(social =>
-      `<a href="${social.url}" target="_blank"><i class="${social.icon}"></i></a>`
-    ).join('');
+function renderFooter(db) {
+  const footerSocial = document.querySelector(".footer__top__social");
+  if (footerSocial && db.globals.socials) {
+    footerSocial.innerHTML = db.globals.socials
+      .map(
+        (social) =>
+          `<a href="${social.url}" target="_blank"><i class="${social.icon}"></i></a>`,
+      )
+      .join("");
+  }
+
+  const footerAbout = document.querySelector(".footer__option__item__about p");
+  
+  if(footerAbout){
+    footerAbout.innerHTML = db.about.description;
+  }
+
+  const footerMenu = document.querySelector(".footer__option__item__menuul");
+  
+  if (footerMenu && globals.socials) {
+    footerMenu.innerHTML = db.globals.socials
+      .map(
+        (social) =>
+          `<li><a href="${social.url}" target="_blank" style="text-transform: capitalize;">${social.name}</a></li>`,
+      )
+      .join("");
   }
 }
 
 function renderContactPage(contactData) {
   if (!contactData) return;
 
-  const breadcrumbTitle = document.querySelector('.breadcrumb__text h2');
-  const breadcrumbLink = document.querySelector('.breadcrumb__links span');
+  const breadcrumbTitle = document.querySelector(".breadcrumb__text h2");
+  const breadcrumbLink = document.querySelector(".breadcrumb__links span");
   if (breadcrumbTitle) breadcrumbTitle.textContent = contactData.title;
   if (breadcrumbLink) breadcrumbLink.textContent = contactData.breadcrumb;
 
-  const widgetContainer = document.querySelector('.contact__widget__container');
+  const widgetContainer = document.querySelector(".contact__widget__container");
   if (widgetContainer && contactData.info) {
-    widgetContainer.innerHTML = Object.values(contactData.info).map(item => `
+    widgetContainer.innerHTML = Object.values(contactData.info)
+      .map(
+        (item) => `
             <div class="col-lg-4 col-md-6 col-md-6 col-md-3">
                 <div class="contact__widget__item">
                     <div class="contact__widget__item__icon">
@@ -317,10 +377,12 @@ function renderContactPage(contactData) {
                     </div>
                 </div>
             </div>
-        `).join('');
+        `,
+      )
+      .join("");
   }
 
-  const mapContainer = document.querySelector('.contact__map');
+  const mapContainer = document.querySelector(".contact__map");
   if (mapContainer && contactData.mapUrl) {
     mapContainer.innerHTML = `<iframe src="${contactData.mapUrl}" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>`;
   }

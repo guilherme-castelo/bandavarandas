@@ -1,4 +1,4 @@
 node_modules
 .vercel
 .env*.local
-public/images
+public/img/images
