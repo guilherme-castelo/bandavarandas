@@ -229,10 +229,10 @@ function renderPortfolioPage(portfolioData) {
     const classes = item.category.join(' ');
     let bentoClass = 'bento-item';
 
-    if (index % 7 === 0) bentoClass = 'bento-large';
-    else if (index % 7 === 3) bentoClass = 'bento-wide';
-    else if (index % 7 === 4) bentoClass = 'bento-item';
-    else if (index % 7 === 5) bentoClass = 'bento-tall';
+    if (index % 6 === 0) bentoClass = 'bento-large';
+    else if (index % 6 === 3) bentoClass = 'bento-wide';
+    else if (index % 6 === 4) bentoClass = 'bento-item';
+    else if (index % 6 === 5) bentoClass = 'bento-tall';
 
     let mediaContent = '';
 
