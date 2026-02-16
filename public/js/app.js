@@ -207,8 +207,8 @@ function renderTeam(teamData) {
   if (!teamContainer || !teamData) return;
 
   teamContainer.innerHTML = teamData.map(member => `
-        <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-            <div class="team__item set-bg" data-setbg="${member.image}" style="background-image: url('${member.image}');">
+        <div class="col-lg-3 col-md-6 col-sm-6 p-3">
+            <div class="team__item set-bg" data-setbg="${member.image}" style="background-image: url('${member.image}'); border-radius: 15px;">
                 <div class="team__item__text">
                     <h4>${member.name}</h4>
                     <p>${member.role}</p>

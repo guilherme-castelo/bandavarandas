@@ -290,6 +290,10 @@ img[loading="lazy"] {
     pointer-events: none;
 }
 
+.container__about{
+    padding: 0 10%;
+}
+
 .blob {
     position: absolute;
     border-radius: 50%;
