@@ -144,7 +144,7 @@ h6 {
 /* --- Glass Card Visuals --- */
 .portfolio__item__text {
     background: linear-gradient(to top, rgba(10, 5, 20, 0.95), rgba(10, 5, 20, 0.4));
-    padding: 20px;
+    padding: 10px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -153,7 +153,7 @@ h6 {
 }
 
 .portfolio__item:hover .portfolio__item__text {
-    transform: translateY(0);
+    transform: translateY(130px);
 }
 
 /* --- Filter Tags --- */
@@ -383,10 +383,13 @@ img[loading="lazy"] {
     /* Offset for header + breath */
     z-index: 20;
     transition: all 0.3s ease;
-    border-radius: 20px;
-    border: 1px solid var(--glass-border);
-    box-shadow: 0 10px 30px -10px var(--primary-glow);
-    padding: 5px;
+}
+
+.services {
+    padding: 0px;
+    background: none;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* Adjust portfolio filter for the column width */
