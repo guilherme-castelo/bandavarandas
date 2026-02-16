@@ -32,7 +32,7 @@
     },
     {
       "label": "Projetos",
-      "url": "/index.html#about",
+      "url": "#about",
       "active": false
     }
   ],
@@ -77,23 +77,17 @@
     "title": "Quem somos?",
     "subtitle": "Sobre Varandas",
     "description": "Banda Varandas, formada por Bruno Bratilieri, Amanda Milan, Guilherme Castelo e Murilo da Silva, vem fortalecendo a cena musical local há cerca de oito anos, trazendo sua identidade artística e visão única.\n\nCom o lançamento do primeiro álbum em 2022 e um single em 2024, a banda segue em constante produção, explorando novos sons e consolidando sua trajetória. E essa história está apenas começando…",
-    "images": [
-      "img/varandas/bandavarandas-lives-codinomecentral1.jpeg",
-      "img/varandas/bandavarandas-rockbar3.jpeg",
-      "img/varandas/bandavarandas-noite-amaar1.jpeg",
-      "img/varandas/single-asvezes/bandavarandas-single18.jpeg"
-    ],
     "highlights": [
       {
         "title": "Codinome Central",
-        "description": "Álbum intitulado Codinome Central, lançado em 2022 pela banda Varandas.",
-        "image": "img/varandas/icons/i-1.jpeg",
+        "description": "Álbum de 2022",
+        "image": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/icons/i-1.jpeg",
         "link": "https://artists.landr.com/CodinomeCentral-Varandas"
       },
       {
         "title": "Às Vezes",
-        "description": "Single Às Vezes lançado em 2024 com recursos da Lei Paulo Gustavo Edital Audiovisual nº 001/2023.",
-        "image": "img/varandas/icons/i-2.jpeg",
+        "description": "Single de 2024",
+        "image": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/icons/i-2.jpeg",
         "link": "https://artists.landr.com/AsVezes-Varandas"
       }
     ]
@@ -102,25 +96,25 @@
     {
       "name": "BRUNO BRATILIERI",
       "role": "Vocalista | Letrista",
-      "image": "img/varandas/single-asvezes/bandavarandas-single14.jpeg",
+      "image": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/single-asvezes/bandavarandas-single14.jpeg",
       "socials": []
     },
     {
       "name": "AMANDA MILAN",
       "role": "Baixista | Letrista",
-      "image": "img/varandas/single-asvezes/bandavarandas-single17.jpeg",
+      "image": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/single-asvezes/bandavarandas-single17.jpeg",
       "socials": []
     },
     {
       "name": "GUILHERME CASTELO",
       "role": "Baterista",
-      "image": "img/varandas/single-asvezes/bandavarandas-single1.jpeg",
+      "image": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/single-asvezes/bandavarandas-single1.jpeg",
       "socials": []
     },
     {
       "name": "MURILO DA SILVA",
       "role": "Guitarrista",
-      "image": "img/varandas/single-asvezes/bandavarandas-single22.png",
+      "image": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/single-asvezes/bandavarandas-single22.png",
       "socials": []
     }
   ],
@@ -135,45 +129,45 @@
       "year": "2025",
       "type": "gallery",
       "group": "galeria7",
-      "mainImage": "img/varandas/somafavordoplaneta/DSC08362.jpg",
+      "mainImage": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08362.jpg",
       "images": [
-        "img/varandas/somafavordoplaneta/DSC08262.jpg",
-        "img/varandas/somafavordoplaneta/DSC08299.jpg",
-        "img/varandas/somafavordoplaneta/DSC08324.jpg",
-        "img/varandas/somafavordoplaneta/DSC08376.jpg",
-        "img/varandas/somafavordoplaneta/DSC08426.jpg",
-        "img/varandas/somafavordoplaneta/DSC08269.jpg",
-        "img/varandas/somafavordoplaneta/DSC08303.jpg",
-        "img/varandas/somafavordoplaneta/DSC08336.jpg",
-        "img/varandas/somafavordoplaneta/DSC08380.jpg",
-        "img/varandas/somafavordoplaneta/DSC08436.jpg",
-        "img/varandas/somafavordoplaneta/DSC08274.jpg",
-        "img/varandas/somafavordoplaneta/DSC08306.jpg",
-        "img/varandas/somafavordoplaneta/DSC08338.jpg",
-        "img/varandas/somafavordoplaneta/DSC08381.jpg",
-        "img/varandas/somafavordoplaneta/DSC08446.jpg",
-        "img/varandas/somafavordoplaneta/DSC08277.jpg",
-        "img/varandas/somafavordoplaneta/DSC08308.jpg",
-        "img/varandas/somafavordoplaneta/DSC08341.jpg",
-        "img/varandas/somafavordoplaneta/DSC08396.jpg",
-        "img/varandas/somafavordoplaneta/DSC08448.jpg",
-        "img/varandas/somafavordoplaneta/DSC08282.jpg",
-        "img/varandas/somafavordoplaneta/DSC08309.jpg",
-        "img/varandas/somafavordoplaneta/DSC08348.jpg",
-        "img/varandas/somafavordoplaneta/DSC08406.jpg",
-        "img/varandas/somafavordoplaneta/DSC08450.jpg",
-        "img/varandas/somafavordoplaneta/DSC08284.jpg",
-        "img/varandas/somafavordoplaneta/DSC08317.jpg",
-        "img/varandas/somafavordoplaneta/DSC08352.jpg",
-        "img/varandas/somafavordoplaneta/DSC08413.jpg",
-        "img/varandas/somafavordoplaneta/DSC08293.jpg",
-        "img/varandas/somafavordoplaneta/DSC08319.jpg",
-        "img/varandas/somafavordoplaneta/DSC08353.jpg",
-        "img/varandas/somafavordoplaneta/DSC08419.jpg",
-        "img/varandas/somafavordoplaneta/DSC08295.jpg",
-        "img/varandas/somafavordoplaneta/DSC08322.jpg",
-        "img/varandas/somafavordoplaneta/DSC08362.jpg",
-        "img/varandas/somafavordoplaneta/DSC08423.jpg"
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08262.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08299.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08324.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08376.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08426.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08269.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08303.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08336.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08380.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08436.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08274.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08306.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08338.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08381.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08446.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08277.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08308.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08341.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08396.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08448.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08282.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08309.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08348.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08406.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08450.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08284.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08317.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08352.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08413.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08293.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08319.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08353.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08419.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08295.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08322.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08362.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/somafavordoplaneta/DSC08423.jpg"
       ]
     },
     {
@@ -186,7 +180,7 @@
       "description": "Clipe do single \"Às Vezes\", segundo trabalho de estúdio da banda Varandas. Edital Audiovisual nº 001/2023 e nº 002/2023",
       "year": "2024",
       "type": "video",
-      "thumbnail": "img/varandas/single-asvezes/bandavarandas-clipe-asvezes1.png",
+      "thumbnail": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/single-asvezes/bandavarandas-clipe-asvezes1.png",
       "videoUrl": "https://www.youtube.com/watch?v=RJlAWxLiQ5U"
     },
     {
@@ -199,7 +193,7 @@
       "description": "Documentário sobre o processo de produção e gravação do single \"Às Vezes\", segundo trabalho de estúdio da banda Varandas.",
       "year": "2024",
       "type": "video",
-      "thumbnail": "img/varandas/single-asvezes/bandavarandas-makingof-asvezes1.png",
+      "thumbnail": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/single-asvezes/bandavarandas-makingof-asvezes1.png",
       "videoUrl": "https://www.youtube.com/watch?v=Lab1SxVSy4I"
     },
     {
@@ -224,14 +218,14 @@
       "year": "2024",
       "type": "gallery",
       "group": "galeria5",
-      "mainImage": "img/varandas/bandavarandas-rockbar3.jpeg",
+      "mainImage": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandavarandas-rockbar3.jpeg",
       "images": [
-        "img/varandas/bandavarandas-rockbar1.jpeg",
-        "img/varandas/bandavarandas-rockbar2.jpeg",
-        "img/varandas/bandavarandas-rockbar4.jpeg",
-        "img/varandas/bandavarandas-rockbar6.jpeg",
-        "img/varandas/bandavarandas-rockbar5.jpeg",
-        "img/varandas/bandavarandas-rockbar7.jpeg"
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandavarandas-rockbar1.jpeg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandavarandas-rockbar2.jpeg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandavarandas-rockbar4.jpeg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandavarandas-rockbar6.jpeg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandavarandas-rockbar5.jpeg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandavarandas-rockbar7.jpeg"
       ]
     },
     {
@@ -257,7 +251,7 @@
       "description": "Making Of das 3 Lives Codinome Central.",
       "year": "2021",
       "type": "video",
-      "thumbnail": "img/varandas/lives/bandavarandas-makingof-live-codinomecentral.png",
+      "thumbnail": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/lives/bandavarandas-makingof-live-codinomecentral.png",
       "videoUrl": "https://www.youtube.com/watch?v=SxYX9iim3Ak"
     },
     {
@@ -270,7 +264,7 @@
       "description": "3ª Live Codinome Central.",
       "year": "2021",
       "type": "video",
-      "thumbnail": "img/varandas/lives/bandavarandas-live-codinomecentral3.png",
+      "thumbnail": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/lives/bandavarandas-live-codinomecentral3.png",
       "videoUrl": "https://www.youtube.com/live/qdgtAzH4QxE"
     },
     {
@@ -283,7 +277,7 @@
       "description": "2ª Live Codinome Central.",
       "year": "2021",
       "type": "video",
-      "thumbnail": "img/varandas/lives/bandavarandas-live-codinomecentral2.png",
+      "thumbnail": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/lives/bandavarandas-live-codinomecentral2.png",
       "videoUrl": "https://youtube.com/live/-p16LVUavIA"
     },
     {
@@ -296,7 +290,7 @@
       "description": "1ª Live Codinome Central.",
       "year": "2021",
       "type": "video",
-      "thumbnail": "img/varandas/lives/bandavarandas-live-codinomecentral1.png",
+      "thumbnail": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/lives/bandavarandas-live-codinomecentral1.png",
       "videoUrl": "https://youtube.com/live/79ZIQas1GRU"
     },
     {
@@ -309,9 +303,9 @@
       "year": "2021",
       "type": "gallery",
       "group": "galeria6",
-      "mainImage": "img/varandas/bandavarandas-arq-em-artes2.jpeg",
+      "mainImage": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandavarandas-arq-em-artes2.jpeg",
       "images": [
-        "img/varandas/bandavarandas-arq-em-artes2.jpeg"
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandavarandas-arq-em-artes2.jpeg"
       ]
     },
     {
@@ -324,9 +318,9 @@
       "year": "2021",
       "type": "gallery",
       "group": "galeria1",
-      "mainImage": "img/varandas/bandavarandas-noite-amaar1.jpeg",
+      "mainImage": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandavarandas-noite-amaar1.jpeg",
       "images": [
-        "img/varandas/bandavarandas-noite-amaar1.jpeg"
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandavarandas-noite-amaar1.jpeg"
       ]
     },
     {
@@ -339,16 +333,16 @@
       "year": "2020",
       "type": "gallery",
       "group": "galeria2",
-      "mainImage": "img/varandas/bandacodinomecentral-festivale2.jpeg",
+      "mainImage": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-festivale2.jpeg",
       "images": [
-        "img/varandas/bandacodinomecentral-festivale1.jpeg",
-        "img/varandas/bandacodinomecentral-festivale3.jpeg",
-        "img/varandas/bandacodinomecentral-festivale4.jpeg",
-        "img/varandas/bandacodinomecentral-festivale5.jpeg",
-        "img/varandas/bandacodinomecentral-festivale6.jpeg",
-        "img/varandas/bandacodinomecentral-festivale7.jpeg",
-        "img/varandas/bandacodinomecentral-festivale8.jpeg",
-        "img/varandas/bandacodinomecentral-festivale9.jpeg"
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-festivale1.jpeg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-festivale3.jpeg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-festivale4.jpeg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-festivale5.jpeg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-festivale6.jpeg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-festivale7.jpeg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-festivale8.jpeg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-festivale9.jpeg"
       ]
     },
     {
@@ -362,18 +356,18 @@
       "year": "2020",
       "type": "gallery",
       "group": "galeria3",
-      "mainImage": "img/varandas/bandacodinomecentral-noitealternativa-opo2.jpg",
+      "mainImage": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-noitealternativa-opo2.jpg",
       "images": [
-        "img/varandas/bandacodinomecentral-noitealternativa-opo2.jpg",
-        "img/varandas/bandacodinomecentral-noitealternativa-opo3.jpg",
-        "img/varandas/bandacodinomecentral-noitealternativa-opo4.jpg",
-        "img/varandas/bandacodinomecentral-noitealternativa-opo5.jpg",
-        "img/varandas/bandacodinomecentral-noitealternativa-opo6.jpg",
-        "img/varandas/bandacodinomecentral-noitealternativa-opo7.jpg",
-        "img/varandas/bandacodinomecentral-noitealternativa-opo8.jpg",
-        "img/varandas/bandacodinomecentral-noitealternativa-opo9.jpg",
-        "img/varandas/bandacodinomecentral-noitealternativa-opo10.jpg",
-        "img/varandas/bandacodinomecentral-noitealternativa-opo11.jpg"
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-noitealternativa-opo2.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-noitealternativa-opo3.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-noitealternativa-opo4.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-noitealternativa-opo5.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-noitealternativa-opo6.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-noitealternativa-opo7.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-noitealternativa-opo8.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-noitealternativa-opo9.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-noitealternativa-opo10.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-noitealternativa-opo11.jpg"
       ]
     },
     {
@@ -387,13 +381,13 @@
       "year": "2019",
       "type": "gallery",
       "group": "galeria4",
-      "mainImage": "img/varandas/bandacodinomecentral-rondonrock6.jpg",
+      "mainImage": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-rondonrock6.jpg",
       "images": [
-        "img/varandas/bandacodinomecentral-rondonrock2.jpg",
-        "img/varandas/bandacodinomecentral-rondonrock3.jpg",
-        "img/varandas/bandacodinomecentral-rondonrock4.jpg",
-        "img/varandas/bandacodinomecentral-rondonrock5.jpg",
-        "img/varandas/bandacodinomecentral-rondonrock7.jpg"
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-rondonrock2.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-rondonrock3.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-rondonrock4.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-rondonrock5.jpg",
+        "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/bandacodinomecentral-rondonrock7.jpg"
       ]
     }
   ],
