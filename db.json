@@ -230,18 +230,6 @@
     },
     {
       "id": 7,
-      "title": "Álbum Codinome Central",
-      "category": [
-        "trabalhos",
-        "lancamentos"
-      ],
-      "description": "Álbum intitulado \"Codinome Central\", primeiro trabalho de estúdio da banda Varandas.",
-      "year": "2022",
-      "type": "spotify",
-      "spotifyEmbed": "https://open.spotify.com/embed/album/1aZQpIHbvPWwbT00WfkFKJ?utm_source=generator"
-    },
-    {
-      "id": 8,
       "title": "Making Of - Lives Codinome Central",
       "category": [
         "trabalhos",
@@ -253,6 +241,18 @@
       "type": "video",
       "thumbnail": "https://raw.githubusercontent.com/bandavarandas/images/refs/heads/main/lives/bandavarandas-makingof-live-codinomecentral.png",
       "videoUrl": "https://www.youtube.com/watch?v=SxYX9iim3Ak"
+    },
+    {
+      "id": 8,
+      "title": "Álbum Codinome Central",
+      "category": [
+        "trabalhos",
+        "lancamentos"
+      ],
+      "description": "Álbum intitulado \"Codinome Central\", primeiro trabalho de estúdio da banda Varandas.",
+      "year": "2022",
+      "type": "spotify",
+      "spotifyEmbed": "https://open.spotify.com/embed/album/1aZQpIHbvPWwbT00WfkFKJ?utm_source=generator"
     },
     {
       "id": 9,
@@ -411,7 +411,7 @@
   },
   "stats": [
     {
-      "number": 8,
+      "number": 10,
       "label": "Anos de Estrada"
     },
     {
